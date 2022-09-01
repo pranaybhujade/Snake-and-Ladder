@@ -1,7 +1,10 @@
 package com.bridgelabz;
 
 public class SnakeAndLadder {
+    static final int StART_POSITION = 0;
+
     public static void main(String[] args) {
-        System.out.println("welcome to snake&ladder");
+        int position = StART_POSITION;
+        System.out.println("current position : " + position);
     }
 }
